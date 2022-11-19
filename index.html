@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+</head>
+
+<body>
+    <div class="head">
+        <h1>Replicate the button on Masthead of PrepBytes</h1>
+        <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/navbar/logoPrepBytes.svg" alt="">
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li><a href="#">Study Material</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Pratice Coding</a></li>
+            <li><a href="#">Elevation Academy</a></li>
+            <!-- <li><a href="#"></a></li> -->
+
+
+        </ul>
+    </div>
+    <br><br><br>
+    <hr> <br><br>
+
+    <div class="p">
+        <h1>Write a text and add any google font </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <br><br><br>
+    <hr> <br><br>
+
+    <h1>Create a box and increase its width on hover , add transition on hover</h1>
+    <br>
+    <div class="three"></div>
+
+    <br><br><br>
+    <hr> <br><br>
+
+    <h1>Create a circle using border radius </h1>
+    <br>
+    <div class="circle"></div>
+
+    <br><br><br>
+    <hr> <br><br>
+
+    <h1>Write code to show implementation of media queries</h1>
+    <div class="box">
+        <div class="b1">Welcome</div>
+        <div class="b1">TO</div>
+        <div class="b1">Prepbytes</div>
+    </div>
+    <h1>Code</h1>
+    <p><b><u>In HTML</u></b><br>
+        < div class="box"><br>
+            < div class=" b1 ">Welcome< / div><br>
+            < div class="b1">TO< / div><br>
+            < div class="b1">Prepbytes< / div>
+        < /div><br><br>
+        <p><b><u>In CSS</u></b><br>
+            .box{<br>
+                width: 100%;<br>
+                height: 100%;<br>
+                border: 1px solid;<br>
+                display: flex;<br>
+                flex-wrap: wrap;<br>
+                flex-direction: row;<br>
+                justify-content: center;<br>
+                background-color: rgb(220, 133, 198);<br>
+                padding: 10px;<br>
+                gap: 20px;<br>
+            
+            }<br>
+            <br>
+            .b1{<br>
+                border: 2px solid;<br>
+                width: 200px;<br>
+                height: 200px;<br>
+                background-color: powderblue;<br>
+                color: purple;<br>
+                text-align: center;<br>
+                margin: 20px;<br>
+            }<br>
+            
+            @media (min-width:360px) and (max-width:600px){<br>
+                .box{<br>
+                    flex-direction: column;<br>
+                    align-items: center;<br>
+                    text-align: center;<br>
+                }<br>
+            }<br>
+    </p>
+
+    <br><br><br>
+    <hr> <br><br>
+<h1>Write code to show any animation example</h1>
+<div class="animation"></div>
+
+<br><br>
+      <h1>Code</h1>
+            <br><br>
+        <p><b><u>In html</u></b><br>
+            < div class="animation">< /div>
+            <br><br>
+        <p><b><u>In CSS</u></b><br>
+            .animation{<br>
+                width: 100px;<br>
+                height: 100px;<br>
+                margin: 20px;<br>
+                border: 2px solid;<br>
+                background-color: rosybrown;<br>
+                transition: all 4s linear;<br>
+                transform: rotate(0deg);<br>
+                animation: myanimation 4s infinite;<br>
+                animation-direction:alternate ;<br>
+            }<br>
+            
+            @keyframes myanimation{<br>
+                100%{<br>
+                    transform: rotateZ(360deg);<br>
+                }<br>
+            }<br>
+
+
+
+
+
+</body>
+
+</html>
